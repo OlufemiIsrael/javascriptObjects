@@ -11,7 +11,7 @@ const person = {
     },
 };
 
-// change the value of the previous data set
+// changing the values of the previous data set
 
 person.age = 17;
 person['name'][0] = 'Israel';
@@ -26,4 +26,5 @@ person.farewell = function() {
 
 const myDataName = 'height';
 const myDataValue = '1.75m';
+
 person[myDataName] = myDataValue;
